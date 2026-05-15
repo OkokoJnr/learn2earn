@@ -1,5 +1,14 @@
+//Write a program that prints the Latin alphabet in lowercase on a single line.
 package main
-import "fmt"
+
+import "github.com/01-edu/z01"
+
+
 func main(){
-	fmt.Println("Hello Wordld")
+	i:='a'
+	for i<='z'{
+		z01.PrintRune(i)
+		i++
+	}
+	z01.PrintRune('\n')
 }
