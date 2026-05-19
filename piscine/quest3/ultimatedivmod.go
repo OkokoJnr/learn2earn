@@ -16,6 +16,9 @@ package main
 import "fmt"
 
 func UltimateDivMod(a *int, b *int) {
+	if *b == 0{
+		return
+	}
 	x := *a / *b
 	y := *a % *b
 	
