@@ -16,7 +16,14 @@ func IterativePower(nb int, power int) int {
 	return res
 }
 
+func RecursivePower(nb int, power int) int {
+	if power == 0{
+		return 1
+	}
+	return nb * RecursivePower(nb, power-1)
+}
 
 func main(){
 	fmt.Println(IterativePower(4,2))
+	fmt.Println(RecursivePower(3,4))
 }
