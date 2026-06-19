@@ -22,5 +22,5 @@ func QuadC(x, y int){
 	}
 }
 func main(){
-	QuadC(4,5)
+	QuadC(1,5)
 }
