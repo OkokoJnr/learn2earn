@@ -16,8 +16,7 @@ func DivMod(a int, b int, div *int, mod *int){
 	if b == 0{
 		return
 	}
-	*div = a/b
-	*mod = a%b
+	*div, *mod = a/b, a%b
 }
 
 func main(){
